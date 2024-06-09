@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_infokatalon.com_fa fa-facebook fa-fw fa-3x</name>
+   <tag></tag>
+   <elementGuidId>31d469e7-0538-4d93-8510-2430c870b435</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-facebook.fa-fw.fa-3x</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li/a/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>284e101e-db6b-4cca-8a46-4cc10793e480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-facebook fa-fw fa-3x</value>
+      <webElementGuid>f9558a0b-2a3e-4419-a1d7-df0d31cb9bb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/ul[@class=&quot;list-inline&quot;]/li[1]/a[1]/i[@class=&quot;fa fa-facebook fa-fw fa-3x&quot;]</value>
+      <webElementGuid>78c21826-97c8-4f46-af22-730b225ebdd0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a/i</value>
+      <webElementGuid>dc54b2fb-890a-4db6-9614-a551d311d57f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
