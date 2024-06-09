@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>7a4bf441-8608-409c-a3e6-4ee6a4d23b44</webElementGuid>
+      <webElementGuid>484fd693-4a2f-42e1-8731-b0760d8804ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305</value>
-      <webElementGuid>e4b4daab-5a8e-4965-987f-2d00d9f9ab6a</webElementGuid>
+      <webElementGuid>0596d992-226b-4b64-88c8-3886fd936deb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/footer[1]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-lg-offset-1 text-center&quot;]/p[1]</value>
-      <webElementGuid>a0a36365-db52-429b-981e-280cd8274c70</webElementGuid>
+      <webElementGuid>503b5d7c-b89a-4a33-9f72-1c25746bfe5a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[3]/following::p[1]</value>
-      <webElementGuid>86e7238f-9f66-4cae-8009-dd7e2f161385</webElementGuid>
+      <webElementGuid>7815ff9f-dd1d-4053-8fda-80584653191e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Make Appointment'])[1]/following::p[1]</value>
-      <webElementGuid>46567701-a5c1-4ad0-aa20-40b39638d7d5</webElementGuid>
+      <webElementGuid>c0b23563-4a98-4e3c-b0ff-062e6e13b4b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='(678) 813-1KMS'])[1]/preceding::p[1]</value>
-      <webElementGuid>6c8e509a-2203-4ba5-937d-57c4320d5e87</webElementGuid>
+      <webElementGuid>3df95438-6f41-47ed-b7c7-fb9c67578637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='info@katalon.com'])[1]/preceding::p[1]</value>
-      <webElementGuid>634b23d2-0b2d-4910-a1b0-fc450c1bf398</webElementGuid>
+      <webElementGuid>fddeeb59-02eb-45b6-b85f-cd56501857e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Atlanta 550 Pharr Road NE Suite 525']/parent::*</value>
-      <webElementGuid>33e9c847-3f06-497b-aa67-5a4afe4f01c8</webElementGuid>
+      <webElementGuid>243d7451-d67d-4c6a-af8d-8952df40ad52</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>a2a16fb3-22a0-41e2-9ffb-b37db700d920</webElementGuid>
+      <webElementGuid>344ce7b1-202d-4b0a-a731-696f7129025c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305' or . = 'Atlanta 550 Pharr Road NE Suite 525Atlanta, GA 30305')]</value>
-      <webElementGuid>55c66cd4-ce57-4d6d-872f-3e69da3be465</webElementGuid>
+      <webElementGuid>35225a91-25c7-4d0e-90d9-2a74eff970f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
