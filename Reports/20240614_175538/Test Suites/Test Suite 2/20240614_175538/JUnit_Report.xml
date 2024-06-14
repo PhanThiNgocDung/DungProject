@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 2" time="8.499" tests="15" failures="0" errors="0">
+   <testsuite name="Test Suite 2" tests="15" failures="0" errors="0" time="8.499" skipped="0" timestamp="14-06-2024T17:55:58" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240614_175538\\Test Suites\\Test Suite 2\\20240614_175538"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240614_175538\\Test Suites\\Test Suite 2\\20240614_175538\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/API/API01" time="1.608" classname="Test Cases/API/API01" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:55:59 - [TEST_CASE][PASSED] - Test Cases/API/API01: Test Cases/API/API01
+
+14-06-2024T17:55:59 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUsers")): Send request successfully
+
+14-06-2024T17:56:00 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\0.har
+
+14-06-2024T17:56:00 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API02" time="0.162" classname="Test Cases/API/API02" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:00 - [TEST_CASE][PASSED] - Test Cases/API/API02: Test Cases/API/API02
+
+14-06-2024T17:56:00 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/SingleUser")): Send request successfully
+
+14-06-2024T17:56:00 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\1.har
+
+14-06-2024T17:56:00 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:00 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:00 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API03" time="0.677" classname="Test Cases/API/API03" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:00 - [TEST_CASE][PASSED] - Test Cases/API/API03: Test Cases/API/API03
+
+14-06-2024T17:56:00 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/ListResource")): Send request successfully
+
+14-06-2024T17:56:01 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\2.har
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API04" time="0.143" classname="Test Cases/API/API04" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API04: Test Cases/API/API04
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/SingleResource")): Send request successfully
+
+14-06-2024T17:56:01 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\3.har
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API05" time="0.096" classname="Test Cases/API/API05" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API05: Test Cases/API/API05
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/CreateUser")): Send request successfully
+
+14-06-2024T17:56:01 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\4.har
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API06" time="0.095" classname="Test Cases/API/API06" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API06: Test Cases/API/API06
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser3")): Send request successfully
+
+14-06-2024T17:56:01 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\5.har
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:01 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API07" time="0.677" classname="Test Cases/API/API07" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:01 - [TEST_CASE][PASSED] - Test Cases/API/API07: Test Cases/API/API07
+
+14-06-2024T17:56:01 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser4")): Send request successfully
+
+14-06-2024T17:56:02 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\6.har
+
+14-06-2024T17:56:02 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:02 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:02 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API08" time="0.656" classname="Test Cases/API/API08" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:02 - [TEST_CASE][PASSED] - Test Cases/API/API08: Test Cases/API/API08
+
+14-06-2024T17:56:02 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser5")): Send request successfully
+
+14-06-2024T17:56:03 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\7.har
+
+14-06-2024T17:56:03 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API09" time="0.679" classname="Test Cases/API/API09" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:03 - [TEST_CASE][PASSED] - Test Cases/API/API09: Test Cases/API/API09
+
+14-06-2024T17:56:03 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser6")): Send request successfully
+
+14-06-2024T17:56:03 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\8.har
+
+14-06-2024T17:56:03 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:03 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:03 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API10" time="0.756" classname="Test Cases/API/API10" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:03 - [TEST_CASE][PASSED] - Test Cases/API/API10: Test Cases/API/API10
+
+14-06-2024T17:56:03 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser7")): Send request successfully
+
+14-06-2024T17:56:04 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\9.har
+
+14-06-2024T17:56:04 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:04 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:04 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API11" time="0.643" classname="Test Cases/API/API11" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:04 - [TEST_CASE][PASSED] - Test Cases/API/API11: Test Cases/API/API11
+
+14-06-2024T17:56:04 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser8")): Send request successfully
+
+14-06-2024T17:56:05 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\10.har
+
+14-06-2024T17:56:05 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API12" time="0.066" classname="Test Cases/API/API12" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:05 - [TEST_CASE][PASSED] - Test Cases/API/API12: Test Cases/API/API12
+
+14-06-2024T17:56:05 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser8")): Send request successfully
+
+14-06-2024T17:56:05 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\11.har
+
+14-06-2024T17:56:05 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:05 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:05 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API13" time="0.74" classname="Test Cases/API/API13" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:05 - [TEST_CASE][PASSED] - Test Cases/API/API13: Test Cases/API/API13
+
+14-06-2024T17:56:05 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser9")): Send request successfully
+
+14-06-2024T17:56:06 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\12.har
+
+14-06-2024T17:56:06 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API14" time="0.671" classname="Test Cases/API/API14" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:06 - [TEST_CASE][PASSED] - Test Cases/API/API14: Test Cases/API/API14
+
+14-06-2024T17:56:06 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser10")): Send request successfully
+
+14-06-2024T17:56:06 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\13.har
+
+14-06-2024T17:56:06 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:06 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:06 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API15" time="0.657" classname="Test Cases/API/API15" status="PASSED">
+         <system-out><![CDATA[14-06-2024T17:56:06 - [TEST_CASE][PASSED] - Test Cases/API/API15: Test Cases/API/API15
+
+14-06-2024T17:56:06 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser11")): Send request successfully
+
+14-06-2024T17:56:07 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240614_175538\Test Suites\Test Suite 2\20240614_175538\requests\main\14.har
+
+14-06-2024T17:56:07 - [MESSAGE][PASSED] - Send request successfully
+
+14-06-2024T17:56:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+14-06-2024T17:56:07 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-06-2024T17:55:58 - [TEST_SUITE][PASSED] - Test Suite 2: Test Cases/API/API15]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
