@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 2" time="1.685" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 2" tests="2" failures="0" errors="0" time="1.685" skipped="0" timestamp="09-06-2024T17:50:54" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240609_175049\\Test Suites\\Test Suite 2\\20240609_175049"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240609_175049\\Test Suites\\Test Suite 2\\20240609_175049\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="hostAddress" value="192.168.1.55"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/API/API01" time="1.479" classname="Test Cases/API/API01" status="PASSED">
+         <system-out><![CDATA[09-06-2024T17:50:54 - [TEST_CASE][PASSED] - Test Cases/API/API01: Test Cases/API/API01
+
+09-06-2024T17:50:55 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUsers")): Send request successfully
+
+09-06-2024T17:50:56 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240609_175049\Test Suites\Test Suite 2\20240609_175049\requests\main\0.har
+
+09-06-2024T17:50:56 - [MESSAGE][PASSED] - Send request successfully
+
+09-06-2024T17:50:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+09-06-2024T17:50:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API2" time="0.102" classname="Test Cases/API/API2" status="PASSED">
+         <system-out><![CDATA[09-06-2024T17:50:56 - [TEST_CASE][PASSED] - Test Cases/API/API2: Test Cases/API/API2
+
+09-06-2024T17:50:56 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/SingleUser")): Send request successfully
+
+09-06-2024T17:50:56 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240609_175049\Test Suites\Test Suite 2\20240609_175049\requests\main\1.har
+
+09-06-2024T17:50:56 - [MESSAGE][PASSED] - Send request successfully
+
+09-06-2024T17:50:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+09-06-2024T17:50:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[09-06-2024T17:50:54 - [TEST_SUITE][PASSED] - Test Suite 2: Test Cases/API/API2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

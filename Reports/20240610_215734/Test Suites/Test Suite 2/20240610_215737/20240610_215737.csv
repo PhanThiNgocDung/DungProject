@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 2,,,,10-06-2024 21:59:03,10-06-2024 21:59:11,8.401s,PASSED
+,,,,,,,
+Test Cases/API/API01,,,,10-06-2024 21:59:03,10-06-2024 21:59:04,1.388s,PASSED
+"a = sendRequest(findTestObject(""API/GetUsers""))",,,,10-06-2024 21:59:03,10-06-2024 21:59:04,1.214s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.014s,PASSED
+,,,,,,,
+Test Cases/API/API02,,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.126s,PASSED
+"a = sendRequest(findTestObject(""API/SingleUser""))",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.058s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.003s,PASSED
+,,,,,,,
+Test Cases/API/API03,,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.119s,PASSED
+"a = sendRequest(findTestObject(""API/ListResource""))",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.065s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API04,,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.099s,PASSED
+"a = sendRequest(findTestObject(""API/SingleResource""))",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.057s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:04,10-06-2024 21:59:04,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API05,,,,10-06-2024 21:59:04,10-06-2024 21:59:05,0.089s,PASSED
+"a = sendRequest(findTestObject(""API/CreateUser""))",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.052s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.003s,PASSED
+,,,,,,,
+Test Cases/API/API06,,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.084s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser3""))",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.052s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.001s,PASSED
+,,,,,,,
+Test Cases/API/API07,,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.767s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser4""))",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.733s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:05,10-06-2024 21:59:05,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API08,,,,10-06-2024 21:59:05,10-06-2024 21:59:06,0.826s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser5""))",,,,10-06-2024 21:59:05,10-06-2024 21:59:06,0.786s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:06,10-06-2024 21:59:06,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API09,,,,10-06-2024 21:59:06,10-06-2024 21:59:07,0.786s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser6""))",,,,10-06-2024 21:59:06,10-06-2024 21:59:07,0.758s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:07,10-06-2024 21:59:07,0.001s,PASSED
+,,,,,,,
+Test Cases/API/API10,,,,10-06-2024 21:59:07,10-06-2024 21:59:07,0.080s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser7""))",,,,10-06-2024 21:59:07,10-06-2024 21:59:07,0.050s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:07,10-06-2024 21:59:07,0.001s,PASSED
+,,,,,,,
+Test Cases/API/API11,,,,10-06-2024 21:59:07,10-06-2024 21:59:08,0.754s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser8""))",,,,10-06-2024 21:59:07,10-06-2024 21:59:08,0.722s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:08,10-06-2024 21:59:08,0.001s,PASSED
+,,,,,,,
+Test Cases/API/API12,,,,10-06-2024 21:59:08,10-06-2024 21:59:08,0.066s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser8""))",,,,10-06-2024 21:59:08,10-06-2024 21:59:08,0.055s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:08,10-06-2024 21:59:08,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API13,,,,10-06-2024 21:59:08,10-06-2024 21:59:09,1.084s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser9""))",,,,10-06-2024 21:59:08,10-06-2024 21:59:09,1.056s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:09,10-06-2024 21:59:09,0.002s,PASSED
+,,,,,,,
+Test Cases/API/API14,,,,10-06-2024 21:59:09,10-06-2024 21:59:10,1.009s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser10""))",,,,10-06-2024 21:59:09,10-06-2024 21:59:10,0.982s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:10,10-06-2024 21:59:10,0.001s,PASSED
+,,,,,,,
+Test Cases/API/API15,,,,10-06-2024 21:59:10,10-06-2024 21:59:11,0.995s,PASSED
+"a = sendRequest(findTestObject(""API/GetUser11""))",,,,10-06-2024 21:59:10,10-06-2024 21:59:11,0.964s,PASSED
+"verifyResponseStatusCode(a, 200)",,,,10-06-2024 21:59:11,10-06-2024 21:59:11,0.001s,PASSED

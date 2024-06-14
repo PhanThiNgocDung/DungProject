@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//header[@id\u003d\u0027top\u0027]/div/h3",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240609_235940/Test Suites/Test Suite 1/20240609_235941/Object Repository/Page_CURA Healthcare Service/h3_We Care About Your Health_idRelative.png"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 3" time="20.292" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 3" tests="1" failures="0" errors="0" time="20.292" skipped="0" timestamp="11-06-2024T00:10:48" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 3\\20240611_000835"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 3\\20240611_000835\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-current_viewport.png, keyes\keyes-current_viewport1.png, keyes\keyes-current_viewport2.png, keyes\keyes-current_viewport3.png, keyes\keyes-current_viewport4.png, keyes\keyes-current_viewport5.png, keyes\keyes-current_viewport6.png, keyes\keyes-current_viewport7.png, keyes\keyes-current_viewport8.png, keyes\keyes-current_viewport9.png, keyes\keyes-current_viewport10.png, keyes\keyes-current_viewport11.png, keyes\keyes-current_viewport13.png"/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="sessionId" value="5bf6cb1db40b86bd7eb6792d6c4b8b4f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WEB/VisualTesting" time="20.201" classname="Test Cases/WEB/VisualTesting" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:48 - [TEST_CASE][PASSED] - Test Cases/WEB/VisualTesting: Test Cases/WEB/VisualTesting
+
+11-06-2024T00:10:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:10:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:10:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:10:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:10:50 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:10:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:10:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+11-06-2024T00:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+11-06-2024T00:10:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport"): Taking screenshot successfully
+
+11-06-2024T00:10:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport.png]]
+
+11-06-2024T00:10:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport1"): Taking screenshot successfully
+
+11-06-2024T00:10:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport1.png]]
+
+11-06-2024T00:10:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport2"): Taking screenshot successfully
+
+11-06-2024T00:10:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport2.png]]
+
+11-06-2024T00:10:58 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport3"): Taking screenshot successfully
+
+11-06-2024T00:10:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport3.png]]
+
+11-06-2024T00:10:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport4"): Taking screenshot successfully
+
+11-06-2024T00:11:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport4.png]]
+
+11-06-2024T00:11:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport5"): Taking screenshot successfully
+
+11-06-2024T00:11:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport5.png]]
+
+11-06-2024T00:11:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport6"): Taking screenshot successfully
+
+11-06-2024T00:11:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport6.png]]
+
+11-06-2024T00:11:02 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport7"): Taking screenshot successfully
+
+11-06-2024T00:11:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport7.png]]
+
+11-06-2024T00:11:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport8"): Taking screenshot successfully
+
+11-06-2024T00:11:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport8.png]]
+
+11-06-2024T00:11:04 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport9"): Taking screenshot successfully
+
+11-06-2024T00:11:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport9.png]]
+
+11-06-2024T00:11:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport10"): Taking screenshot successfully
+
+11-06-2024T00:11:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport10.png]]
+
+11-06-2024T00:11:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport11"): Taking screenshot successfully
+
+11-06-2024T00:11:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport11.png]]
+
+11-06-2024T00:11:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport13"): Taking screenshot successfully
+
+11-06-2024T00:11:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport13.png]]
+
+11-06-2024T00:11:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:11:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T00:10:48 - [TEST_SUITE][PASSED] - Test Suite 3: Test Cases/WEB/VisualTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

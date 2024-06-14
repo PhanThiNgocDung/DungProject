@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite 1,Chrome 125.0.0.0,,,11-06-2024 00:08:42,11-06-2024 00:09:58,1m - 15.749s,PASSED
+,,,,,,,
+Test Cases/WEB/Web01,Chrome 125.0.0.0,,,11-06-2024 00:08:42,11-06-2024 00:08:50,7.319s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:08:43,11-06-2024 00:08:44,1.515s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:08:44,11-06-2024 00:08:49,4.937s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:08:49,11-06-2024 00:08:50,0.488s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:08:50,11-06-2024 00:08:50,0.217s,PASSED
+,,,,,,,
+Test Cases/WEB/Web02,Chrome 125.0.0.0,,,11-06-2024 00:08:50,11-06-2024 00:08:56,5.989s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:08:50,11-06-2024 00:08:51,0.778s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:08:51,11-06-2024 00:08:53,2.634s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 125.0.0.0,,,11-06-2024 00:08:53,11-06-2024 00:08:54,0.716s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:08:54,11-06-2024 00:08:55,1.084s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:08:55,11-06-2024 00:08:56,0.530s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:08:56,11-06-2024 00:08:56,0.144s,PASSED
+,,,,,,,
+Test Cases/WEB/Web03,Chrome 125.0.0.0,,,11-06-2024 00:08:56,11-06-2024 00:09:00,4.339s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:08:56,11-06-2024 00:08:57,0.761s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:08:57,11-06-2024 00:09:00,3.093s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:00,11-06-2024 00:09:00,0.291s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:00,11-06-2024 00:09:00,0.150s,PASSED
+,,,,,,,
+Test Cases/WEB/Web04,Chrome 125.0.0.0,,,11-06-2024 00:09:00,11-06-2024 00:09:05,4.639s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:00,11-06-2024 00:09:01,0.743s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:01,11-06-2024 00:09:04,3.113s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,11-06-2024 00:09:04,11-06-2024 00:09:04,0.318s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_CURA Healthcare""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:04,11-06-2024 00:09:05,0.268s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:05,11-06-2024 00:09:05,0.162s,PASSED
+,,,,,,,
+Test Cases/WEB/Web05,Chrome 125.0.0.0,,,11-06-2024 00:09:05,11-06-2024 00:09:09,4.541s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:05,11-06-2024 00:09:06,0.696s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:06,11-06-2024 00:09:09,3.094s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""))",Chrome 125.0.0.0,,,11-06-2024 00:09:09,11-06-2024 00:09:09,0.315s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_Home""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:09,11-06-2024 00:09:09,0.262s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:09,11-06-2024 00:09:09,0.135s,PASSED
+,,,,,,,
+Test Cases/WEB/Web06,Chrome 125.0.0.0,,,11-06-2024 00:09:09,11-06-2024 00:09:13,4.092s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:09,11-06-2024 00:09:10,0.684s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:10,11-06-2024 00:09:13,2.973s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/li_(678) 813-1KMS""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:13,11-06-2024 00:09:13,0.268s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:13,11-06-2024 00:09:13,0.132s,PASSED
+,,,,,,,
+Test Cases/WEB/Web07,Chrome 125.0.0.0,,,11-06-2024 00:09:13,11-06-2024 00:09:17,3.802s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:13,11-06-2024 00:09:14,0.746s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:14,11-06-2024 00:09:17,2.609s,PASSED
+"verifyTextPresent("""", false)",Chrome 125.0.0.0,,,11-06-2024 00:09:17,11-06-2024 00:09:17,0.282s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:17,11-06-2024 00:09:17,0.138s,PASSED
+,,,,,,,
+Test Cases/WEB/Web08,Chrome 125.0.0.0,,,11-06-2024 00:09:17,11-06-2024 00:09:21,3.647s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:17,11-06-2024 00:09:18,0.732s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:18,11-06-2024 00:09:20,2.472s,PASSED
+"waitForElementPresent(findTestObject(""Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:20,11-06-2024 00:09:21,0.266s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:21,11-06-2024 00:09:21,0.150s,PASSED
+,,,,,,,
+Test Cases/WEB/Web09,Chrome 125.0.0.0,,,11-06-2024 00:09:21,11-06-2024 00:09:25,3.650s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:21,11-06-2024 00:09:22,0.719s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:22,11-06-2024 00:09:24,2.460s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:24,11-06-2024 00:09:24,0.279s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:24,11-06-2024 00:09:25,0.145s,PASSED
+,,,,,,,
+Test Cases/WEB/Web10,Chrome 125.0.0.0,,,11-06-2024 00:09:25,11-06-2024 00:09:28,3.729s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:25,11-06-2024 00:09:25,0.689s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:25,11-06-2024 00:09:28,2.606s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:28,11-06-2024 00:09:28,0.265s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:28,11-06-2024 00:09:28,0.133s,PASSED
+,,,,,,,
+Test Cases/WEB/Web11,Chrome 125.0.0.0,,,11-06-2024 00:09:28,11-06-2024 00:09:32,4.012s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:28,11-06-2024 00:09:29,0.727s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:29,11-06-2024 00:09:32,2.532s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,11-06-2024 00:09:32,11-06-2024 00:09:32,0.311s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/a_Login""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:32,11-06-2024 00:09:32,0.268s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:32,11-06-2024 00:09:32,0.144s,PASSED
+,,,,,,,
+Test Cases/WEB/Web12,Chrome 125.0.0.0,,,11-06-2024 00:09:32,11-06-2024 00:09:38,5.531s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:32,11-06-2024 00:09:33,0.720s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:33,11-06-2024 00:09:36,3.158s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,11-06-2024 00:09:36,11-06-2024 00:09:37,0.313s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:09:37,11-06-2024 00:09:37,0.680s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/h2_Login""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:37,11-06-2024 00:09:38,0.484s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:38,11-06-2024 00:09:38,0.147s,PASSED
+,,,,,,,
+Test Cases/WEB/Web13,Chrome 125.0.0.0,,,11-06-2024 00:09:38,11-06-2024 00:09:43,5.220s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:38,11-06-2024 00:09:39,0.783s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:39,11-06-2024 00:09:41,2.819s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,11-06-2024 00:09:41,11-06-2024 00:09:42,0.304s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:09:42,11-06-2024 00:09:42,0.655s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/p_Please login to make appointment""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:42,11-06-2024 00:09:43,0.504s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:43,11-06-2024 00:09:43,0.129s,PASSED
+,,,,,,,
+Test Cases/WEB/Web14,Chrome 125.0.0.0,,,11-06-2024 00:09:43,11-06-2024 00:09:48,5.040s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:43,11-06-2024 00:09:44,0.672s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:44,11-06-2024 00:09:47,2.837s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""))",Chrome 125.0.0.0,,,11-06-2024 00:09:47,11-06-2024 00:09:47,0.310s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:09:47,11-06-2024 00:09:48,0.651s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/label_Demo account""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:48,11-06-2024 00:09:48,0.402s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:48,11-06-2024 00:09:48,0.141s,PASSED
+,,,,,,,
+Test Cases/WEB/Web15,Chrome 125.0.0.0,,,11-06-2024 00:09:48,11-06-2024 00:09:53,4.720s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:48,11-06-2024 00:09:49,0.708s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:49,11-06-2024 00:09:51,2.501s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x""))",Chrome 125.0.0.0,,,11-06-2024 00:09:51,11-06-2024 00:09:52,0.309s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:09:52,11-06-2024 00:09:52,0.656s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/input_Demo account_form-control""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:52,11-06-2024 00:09:53,0.371s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:53,11-06-2024 00:09:53,0.149s,PASSED
+,,,,,,,
+Test Cases/WEB/Web16,Chrome 125.0.0.0,,,11-06-2024 00:09:53,11-06-2024 00:09:58,5.323s,PASSED
+"openBrowser("""")",Chrome 125.0.0.0,,,11-06-2024 00:09:53,11-06-2024 00:09:54,0.694s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 125.0.0.0,,,11-06-2024 00:09:54,11-06-2024 00:09:57,3.012s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 125.0.0.0,,,11-06-2024 00:09:57,11-06-2024 00:09:57,0.317s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Login""))",Chrome 125.0.0.0,,,11-06-2024 00:09:57,11-06-2024 00:09:57,0.647s,PASSED
+"verifyElementPresent(findTestObject(""Page_CURA Healthcare Service/button_Login""), 0)",Chrome 125.0.0.0,,,11-06-2024 00:09:57,11-06-2024 00:09:58,0.482s,PASSED
+closeBrowser(),Chrome 125.0.0.0,,,11-06-2024 00:09:58,11-06-2024 00:09:58,0.144s,PASSED

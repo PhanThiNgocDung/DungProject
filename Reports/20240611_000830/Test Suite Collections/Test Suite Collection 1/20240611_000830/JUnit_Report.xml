@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite Collection 1" time="153.7" tests="32" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="16" failures="0" errors="0" time="75.749" skipped="0" timestamp="11-06-2024T00:08:42" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 1\\20240611_000831"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 1\\20240611_000831\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="sessionId" value="75c687b77047a000dc6cc1e068e3ffb4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WEB/Web01" time="7.319" classname="Test Cases/WEB/Web01" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:08:42 - [TEST_CASE][PASSED] - Test Cases/WEB/Web01: Test Cases/WEB/Web01
+
+11-06-2024T00:08:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:08:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:08:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:08:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:08:44 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:08:49 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:08:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' is present
+
+11-06-2024T00:08:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:08:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h1_CURA Healthcare Service' is present
+
+11-06-2024T00:08:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:08:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web02" time="5.989" classname="Test Cases/WEB/Web02" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:08:50 - [TEST_CASE][PASSED] - Test Cases/WEB/Web02: Test Cases/WEB/Web02
+
+11-06-2024T00:08:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:08:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:08:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:08:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:08:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:08:53 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:08:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-06-2024T00:08:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+11-06-2024T00:08:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-06-2024T00:08:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+11-06-2024T00:08:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+11-06-2024T00:08:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:08:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5' is present
+
+11-06-2024T00:08:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:08:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web03" time="4.339" classname="Test Cases/WEB/Web03" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:08:56 - [TEST_CASE][PASSED] - Test Cases/WEB/Web03: Test Cases/WEB/Web03
+
+11-06-2024T00:08:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:08:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:08:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:08:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:08:57 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:00 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+11-06-2024T00:09:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Atlanta 550 Pharr Road NE Suite 525Atlant_8f4c85' is present
+
+11-06-2024T00:09:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web04" time="4.639" classname="Test Cases/WEB/Web04" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:00 - [TEST_CASE][PASSED] - Test Cases/WEB/Web04: Test Cases/WEB/Web04
+
+11-06-2024T00:09:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:01 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:04 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/a_CURA Healthcare"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' is present
+
+11-06-2024T00:09:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare' is present
+
+11-06-2024T00:09:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web05" time="4.541" classname="Test Cases/WEB/Web05" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:05 - [TEST_CASE][PASSED] - Test Cases/WEB/Web05: Test Cases/WEB/Web05
+
+11-06-2024T00:09:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:06 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:09 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x")): Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/a_Home"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_Home' is present
+
+11-06-2024T00:09:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Home' is present
+
+11-06-2024T00:09:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web06" time="4.092" classname="Test Cases/WEB/Web06" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:09 - [TEST_CASE][PASSED] - Test Cases/WEB/Web06: Test Cases/WEB/Web06
+
+11-06-2024T00:09:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:10 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:13 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/li_(678) 813-1KMS"), 0): Object 'Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS' is present
+
+11-06-2024T00:09:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/li_(678) 813-1KMS' is present
+
+11-06-2024T00:09:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web07" time="3.802" classname="Test Cases/WEB/Web07" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:13 - [TEST_CASE][PASSED] - Test Cases/WEB/Web07: Test Cases/WEB/Web07
+
+11-06-2024T00:09:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:14 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:17 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:17 - [TEST_STEP][PASSED] - verifyTextPresent("", false): Text '' is present on page 
+
+11-06-2024T00:09:17 - [MESSAGE][PASSED] - Text '' is present on page 
+
+11-06-2024T00:09:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web08" time="3.647" classname="Test Cases/WEB/Web08" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:17 - [TEST_CASE][PASSED] - Test Cases/WEB/Web08: Test Cases/WEB/Web08
+
+11-06-2024T00:09:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:18 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:20 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x"), 0): Object 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is present
+
+11-06-2024T00:09:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is present
+
+11-06-2024T00:09:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web09" time="3.65" classname="Test Cases/WEB/Web09" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:21 - [TEST_CASE][PASSED] - Test Cases/WEB/Web09: Test Cases/WEB/Web09
+
+11-06-2024T00:09:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:22 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:24 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:24 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' is present
+
+11-06-2024T00:09:24 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:24 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Copyright  CURA Healthcare Service 2024' is present
+
+11-06-2024T00:09:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web10" time="3.729" classname="Test Cases/WEB/Web10" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:25 - [TEST_CASE][PASSED] - Test Cases/WEB/Web10: Test Cases/WEB/Web10
+
+11-06-2024T00:09:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:25 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:28 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12"), 0): Object 'Object Repository/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is present
+
+11-06-2024T00:09:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:28 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/div_CURA Healthcare Service        We Care _b17f12' is present
+
+11-06-2024T00:09:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web11" time="4.012" classname="Test Cases/WEB/Web11" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:28 - [TEST_CASE][PASSED] - Test Cases/WEB/Web11: Test Cases/WEB/Web11
+
+11-06-2024T00:09:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:29 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:32 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/a_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_Login' is present
+
+11-06-2024T00:09:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Login' is present
+
+11-06-2024T00:09:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web12" time="5.531" classname="Test Cases/WEB/Web12" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:32 - [TEST_CASE][PASSED] - Test Cases/WEB/Web12: Test Cases/WEB/Web12
+
+11-06-2024T00:09:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:33 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:36 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/h2_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+11-06-2024T00:09:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:38 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/h2_Login' is present
+
+11-06-2024T00:09:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web13" time="5.22" classname="Test Cases/WEB/Web13" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:38 - [TEST_CASE][PASSED] - Test Cases/WEB/Web13: Test Cases/WEB/Web13
+
+11-06-2024T00:09:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:39 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:41 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/p_Please login to make appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+11-06-2024T00:09:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/p_Please login to make appointment' is present
+
+11-06-2024T00:09:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web14" time="5.04" classname="Test Cases/WEB/Web14" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:43 - [TEST_CASE][PASSED] - Test Cases/WEB/Web14: Test Cases/WEB/Web14
+
+11-06-2024T00:09:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:44 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:47 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x")): Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/label_Demo account"), 0): Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+11-06-2024T00:09:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/label_Demo account' is present
+
+11-06-2024T00:09:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:48 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web15" time="4.72" classname="Test Cases/WEB/Web15" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:48 - [TEST_CASE][PASSED] - Test Cases/WEB/Web15: Test Cases/WEB/Web15
+
+11-06-2024T00:09:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:49 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:51 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x")): Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/i_infokatalon.com_fa fa-facebook fa-fw fa-3x' is clicked on
+
+11-06-2024T00:09:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/input_Demo account_form-control"), 0): Object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is present
+
+11-06-2024T00:09:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:53 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control' is present
+
+11-06-2024T00:09:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WEB/Web16" time="5.323" classname="Test Cases/WEB/Web16" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:09:53 - [TEST_CASE][PASSED] - Test Cases/WEB/Web16: Test Cases/WEB/Web16
+
+11-06-2024T00:09:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:09:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:09:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:09:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:09:54 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle")): Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle' is clicked on
+
+11-06-2024T00:09:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Login' is clicked on
+
+11-06-2024T00:09:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_CURA Healthcare Service/button_Login"), 0): Object 'Object Repository/Page_CURA Healthcare Service/button_Login' is present
+
+11-06-2024T00:09:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:09:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/button_Login' is present
+
+11-06-2024T00:09:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:09:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T00:08:42 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/WEB/Web16]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test Suite 2" tests="15" failures="0" errors="0" time="10.562" skipped="0" timestamp="11-06-2024T00:10:08" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 2\\20240611_000833"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 2\\20240611_000833\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+      </properties>
+      <testcase name="Test Cases/API/API01" time="1.421" classname="Test Cases/API/API01" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:09 - [TEST_CASE][PASSED] - Test Cases/API/API01: Test Cases/API/API01
+
+11-06-2024T00:10:09 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUsers")): Send request successfully
+
+11-06-2024T00:10:10 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\0.har
+
+11-06-2024T00:10:10 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API02" time="0.109" classname="Test Cases/API/API02" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:10 - [TEST_CASE][PASSED] - Test Cases/API/API02: Test Cases/API/API02
+
+11-06-2024T00:10:10 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/SingleUser")): Send request successfully
+
+11-06-2024T00:10:10 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\1.har
+
+11-06-2024T00:10:10 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:10 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API03" time="0.71" classname="Test Cases/API/API03" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:10 - [TEST_CASE][PASSED] - Test Cases/API/API03: Test Cases/API/API03
+
+11-06-2024T00:10:10 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/ListResource")): Send request successfully
+
+11-06-2024T00:10:11 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\2.har
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API04" time="0.093" classname="Test Cases/API/API04" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:11 - [TEST_CASE][PASSED] - Test Cases/API/API04: Test Cases/API/API04
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/SingleResource")): Send request successfully
+
+11-06-2024T00:10:11 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\3.har
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API05" time="0.097" classname="Test Cases/API/API05" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:11 - [TEST_CASE][PASSED] - Test Cases/API/API05: Test Cases/API/API05
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/CreateUser")): Send request successfully
+
+11-06-2024T00:10:11 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\4.har
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:11 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API06" time="1.208" classname="Test Cases/API/API06" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:11 - [TEST_CASE][PASSED] - Test Cases/API/API06: Test Cases/API/API06
+
+11-06-2024T00:10:11 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser3")): Send request successfully
+
+11-06-2024T00:10:12 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\5.har
+
+11-06-2024T00:10:12 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:12 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:12 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API07" time="0.712" classname="Test Cases/API/API07" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:12 - [TEST_CASE][PASSED] - Test Cases/API/API07: Test Cases/API/API07
+
+11-06-2024T00:10:12 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser4")): Send request successfully
+
+11-06-2024T00:10:13 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\6.har
+
+11-06-2024T00:10:13 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:13 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:13 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API08" time="1.029" classname="Test Cases/API/API08" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:13 - [TEST_CASE][PASSED] - Test Cases/API/API08: Test Cases/API/API08
+
+11-06-2024T00:10:13 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser5")): Send request successfully
+
+11-06-2024T00:10:14 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\7.har
+
+11-06-2024T00:10:14 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:14 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:14 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API09" time="0.737" classname="Test Cases/API/API09" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:14 - [TEST_CASE][PASSED] - Test Cases/API/API09: Test Cases/API/API09
+
+11-06-2024T00:10:14 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser6")): Send request successfully
+
+11-06-2024T00:10:15 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\8.har
+
+11-06-2024T00:10:15 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:15 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:15 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API10" time="1.101" classname="Test Cases/API/API10" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:15 - [TEST_CASE][PASSED] - Test Cases/API/API10: Test Cases/API/API10
+
+11-06-2024T00:10:15 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser7")): Send request successfully
+
+11-06-2024T00:10:16 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\9.har
+
+11-06-2024T00:10:16 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:16 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API11" time="0.709" classname="Test Cases/API/API11" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:16 - [TEST_CASE][PASSED] - Test Cases/API/API11: Test Cases/API/API11
+
+11-06-2024T00:10:16 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser8")): Send request successfully
+
+11-06-2024T00:10:16 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\10.har
+
+11-06-2024T00:10:16 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:16 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API12" time="0.062" classname="Test Cases/API/API12" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:17 - [TEST_CASE][PASSED] - Test Cases/API/API12: Test Cases/API/API12
+
+11-06-2024T00:10:17 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser8")): Send request successfully
+
+11-06-2024T00:10:17 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\11.har
+
+11-06-2024T00:10:17 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API13" time="0.725" classname="Test Cases/API/API13" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:17 - [TEST_CASE][PASSED] - Test Cases/API/API13: Test Cases/API/API13
+
+11-06-2024T00:10:17 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser9")): Send request successfully
+
+11-06-2024T00:10:17 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\12.har
+
+11-06-2024T00:10:17 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:17 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:17 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API14" time="0.896" classname="Test Cases/API/API14" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:17 - [TEST_CASE][PASSED] - Test Cases/API/API14: Test Cases/API/API14
+
+11-06-2024T00:10:17 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser10")): Send request successfully
+
+11-06-2024T00:10:18 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\13.har
+
+11-06-2024T00:10:18 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:18 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:18 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/API/API15" time="0.837" classname="Test Cases/API/API15" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:18 - [TEST_CASE][PASSED] - Test Cases/API/API15: Test Cases/API/API15
+
+11-06-2024T00:10:18 - [TEST_STEP][PASSED] - a = sendRequest(findTestObject("API/GetUser11")): Send request successfully
+
+11-06-2024T00:10:19 - [MESSAGE][INFO] - HAR: D:\katalon_repo\Katalon\Reports\20240611_000830\Test Suites\Test Suite 2\20240611_000833\requests\main\14.har
+
+11-06-2024T00:10:19 - [MESSAGE][PASSED] - Send request successfully
+
+11-06-2024T00:10:19 - [TEST_STEP][PASSED] - verifyResponseStatusCode(a, 200): Verify response status code successfully
+
+11-06-2024T00:10:19 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T00:10:08 - [TEST_SUITE][PASSED] - Test Suite 2: Test Cases/API/API15]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="Test Suite 3" tests="1" failures="0" errors="0" time="20.292" skipped="0" timestamp="11-06-2024T00:10:48" hostname="phongHoai - MSI" id="Test Suites/Test Suites/Test Suite 3">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 3\\20240611_000835"/>
+         <property name="logFiles" value="D:\\katalon_repo\\Katalon\\Reports\\20240611_000830\\Test Suites\\Test Suite 3\\20240611_000835\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-current_viewport.png, keyes\keyes-current_viewport1.png, keyes\keyes-current_viewport2.png, keyes\keyes-current_viewport3.png, keyes\keyes-current_viewport4.png, keyes\keyes-current_viewport5.png, keyes\keyes-current_viewport6.png, keyes\keyes-current_viewport7.png, keyes\keyes-current_viewport8.png, keyes\keyes-current_viewport9.png, keyes\keyes-current_viewport10.png, keyes\keyes-current_viewport11.png, keyes\keyes-current_viewport13.png"/>
+         <property name="hostName" value="phongHoai - MSI"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.28"/>
+         <property name="sessionId" value="5bf6cb1db40b86bd7eb6792d6c4b8b4f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WEB/VisualTesting" time="20.201" classname="Test Cases/WEB/VisualTesting" status="PASSED">
+         <system-out><![CDATA[11-06-2024T00:10:48 - [TEST_CASE][PASSED] - Test Cases/WEB/VisualTesting: Test Cases/WEB/VisualTesting
+
+11-06-2024T00:10:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-06-2024T00:10:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-06-2024T00:10:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-06-2024T00:10:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-06-2024T00:10:50 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:10:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+11-06-2024T00:10:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment"), 0): Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+11-06-2024T00:10:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+11-06-2024T00:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is present
+
+11-06-2024T00:10:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport"): Taking screenshot successfully
+
+11-06-2024T00:10:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport.png]]
+
+11-06-2024T00:10:56 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport1"): Taking screenshot successfully
+
+11-06-2024T00:10:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:57 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport1.png]]
+
+11-06-2024T00:10:57 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport2"): Taking screenshot successfully
+
+11-06-2024T00:10:58 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:58 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport2.png]]
+
+11-06-2024T00:10:58 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport3"): Taking screenshot successfully
+
+11-06-2024T00:10:59 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:10:59 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport3.png]]
+
+11-06-2024T00:10:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport4"): Taking screenshot successfully
+
+11-06-2024T00:11:00 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:00 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport4.png]]
+
+11-06-2024T00:11:00 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport5"): Taking screenshot successfully
+
+11-06-2024T00:11:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:01 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport5.png]]
+
+11-06-2024T00:11:01 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport6"): Taking screenshot successfully
+
+11-06-2024T00:11:02 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:02 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport6.png]]
+
+11-06-2024T00:11:02 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport7"): Taking screenshot successfully
+
+11-06-2024T00:11:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport7.png]]
+
+11-06-2024T00:11:03 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport8"): Taking screenshot successfully
+
+11-06-2024T00:11:04 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:04 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport8.png]]
+
+11-06-2024T00:11:04 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport9"): Taking screenshot successfully
+
+11-06-2024T00:11:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport9.png]]
+
+11-06-2024T00:11:05 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport10"): Taking screenshot successfully
+
+11-06-2024T00:11:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:06 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport10.png]]
+
+11-06-2024T00:11:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport11"): Taking screenshot successfully
+
+11-06-2024T00:11:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:07 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport11.png]]
+
+11-06-2024T00:11:07 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("current_viewport13"): Taking screenshot successfully
+
+11-06-2024T00:11:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+11-06-2024T00:11:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-current_viewport13.png]]
+
+11-06-2024T00:11:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-06-2024T00:11:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-06-2024T00:10:48 - [TEST_SUITE][PASSED] - Test Suite 3: Test Cases/WEB/VisualTesting]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
